@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* background: purple; */
+    background-image: linear-gradient(red, yellow);
+    /* padding: 5px; */
+}
+
+.nav{
+    width: 5%;
+  height: 100vh;
+
+  background-image: linear-gradient(yellow, red);
+  /* background-image: linear-gradient(to bottom, rgb(227, 231, 12), rgba(255,0,0,1)); */
+  border-radius: 45%;
+  
+  float: left;
+}
+
+
+.content{
+    margin-left:5%;
+    height: 100vh;
+    background: green;
+}
+
+
+
+.home {
+   
+    position:fixed;
+    top: 47%;
+    left:-208px;
+    transform: rotate(-90deg);
+    
+}

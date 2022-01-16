@@ -1,0 +1,13 @@
+#grad {
+    height: 10vh;
+    width: 10wh;
+    background-image: linear-gradient(to bottom right, black, white);
+  }
+
+#text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
